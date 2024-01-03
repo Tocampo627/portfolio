@@ -5,30 +5,40 @@ type NavBarProperties = {
 };
 
 const NavBar = ({ setCurrentTab }: NavBarProperties) => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleNavClick = (tab: string) => {
     setCurrentTab(tab);
-    setIsNavExpanded(false); // Close mobile menu when a tab is selected
+    setIsOpen(false);
   };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="navbar">
-      <button
-        className="hamburger"
-        onClick={() => setIsNavExpanded(!isNavExpanded)}
-      >
-        <span className="material-symbols-outlined">menu</span>
-      </button>
-      <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
-        <div className="button-container">
-          <button onClick={() => handleNavClick("home")}>Home</button>
-          <button onClick={() => handleNavClick("about-me")}>About Me</button>
-          <button onClick={() => handleNavClick("tech-stack")}>
-            Tech Stack
-          </button>
-          <button onClick={() => handleNavClick("contact")}>Contact</button>
-          <button onClick={() => handleNavClick("resume")}>Resume</button>
-          <button onClick={() => handleNavClick("projects")}>Projects</button>
+    <div className="navbar-container">
+      <div>
+        <img src="./t-logo.svg" className="logo"></img>
+      </div>
+      <div className="burger-button-container">
+        <button
+          className="hamburger"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
+          &#9776;
+        </button>
+        <div>
+          <div className={`button-container ${isOpen ? "" : "hidden"}`}>
+            <button onClick={() => handleNavClick("home")}>Home</button>
+            <button onClick={() => handleNavClick("about-me")}>About Me</button>
+            <button onClick={() => handleNavClick("tech-stack")}>
+              Tech Stack
+            </button>
+            <button onClick={() => handleNavClick("contact")}>Contact</button>
+            <button onClick={() => handleNavClick("resume")}>Resume</button>
+            <button onClick={() => handleNavClick("projects")}>Projects</button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,6 @@
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7em;
+  min-height: 70em;
+}
