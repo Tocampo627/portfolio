@@ -49,10 +49,7 @@
   margin: 10px;
 }
 .yellow-star {
-  font-size: 20px;
-  color: rgba(255, 255, 0, 0.954);
-  text-shadow: -1px -1px 0 #000000ab, 1px -1px 0 #000000ab, -1px 1px 0 #000000ab,
-    1px 1px 0 #000000ab;
+  color: gold;
 }
 
 @media screen and (max-width: 768px) {

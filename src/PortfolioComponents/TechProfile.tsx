@@ -23,7 +23,7 @@ const TechProfile = ({ setViewTechProfile, tool }: TechProfileProperties) => {
             i < levelNumber ? "yellow-star" : ""
           }`}
         >
-          kid_star
+          ★
         </span>
       );
     }
