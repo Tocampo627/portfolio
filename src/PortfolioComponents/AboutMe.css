@@ -1,0 +1,79 @@
+.font {
+  font-family: "Questrial", sans-serif;
+}
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 280px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.my-photo {
+  width: 350px;
+}
+.my-name {
+  font-size: 48px;
+}
+.my-title {
+  font-size: 30px;
+}
+.my-summary {
+  font-size: 21px;
+  max-width: 30em;
+}
+.mini-logos {
+  width: 2.5em;
+  height: 2.5em;
+}
+.logos-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+}
+.logos-container:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5em;
+    align-items: center;
+    margin-top: 10px;
+    border: solid black;
+    min-width: 350px;
+  }
+  .left-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .my-name {
+    font-size: 38px;
+  }
+  .my-title {
+    font-size: 20px;
+  }
+  .my-summary {
+    font-size: 14px;
+    background-color: bisque;
+    padding: 15px;
+  }
+}

@@ -15,20 +15,20 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #067133aa;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #067133aa;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
 h1 {
   font-size: 3.2em;
@@ -47,11 +47,11 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #067133aa;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto #067133aa;
 }
 
 @media (prefers-color-scheme: light) {
@@ -60,7 +60,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #067133aa;
   }
   button {
     background-color: #f9f9f9;
