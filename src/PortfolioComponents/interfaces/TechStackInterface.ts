@@ -1,0 +1,156 @@
+export interface TechStackInterface {
+  id: number;
+  toolName: string;
+  category: string;
+  image: string;
+  level: number;
+  description: string;
+}
+
+export const techStack: TechStackInterface[] = [
+  {
+    id: 1,
+    toolName: "AWS",
+    category: "Cloud",
+    image: "./techStack/Aws.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 2,
+    toolName: "Angular",
+    category: "Frontend",
+    image: "./techStack/Angular.svg",
+    level: 1,
+    description: "blah",
+  },
+  {
+    id: 3,
+    toolName: "CSS",
+    category: "Frontend",
+    image: "./techStack/Css.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 4,
+    toolName: "Docker",
+    category: "Tools",
+    image: "./techStack/Docker.svg",
+    level: 1,
+    description: "blah",
+  },
+  {
+    id: 5,
+    toolName: "GCP",
+    category: "Cloud",
+    image: "./techStack/GCP.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 6,
+    toolName: "Git",
+    category: "Tools",
+    image: "./techStack/Git.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 7,
+    toolName: "GitHub",
+    category: "Tools",
+    image: "./techStack/GitHub.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 8,
+    toolName: "GitHub Actions",
+    category: "Tools",
+    image: "./techStack/GitHubActions.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 9,
+    toolName: "HTML",
+    category: "Frontend",
+    image: "./techStack/HTML.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 10,
+    toolName: "Java",
+    category: "Backend",
+    image: "./techStack/Java.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 11,
+    toolName: "JavaScript",
+    category: "Frontend",
+    image: "./techStack/JavaScript.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 12,
+    toolName: "Postgres",
+    category: "Backend",
+    image: "./techStack/Postgres.svg",
+    level: 1,
+    description: "blah",
+  },
+  {
+    id: 13,
+    toolName: "Postman",
+    category: "Tools",
+    image: "./techStack/Postman.svg",
+    level: 2,
+    description: "blah",
+  },
+  {
+    id: 14,
+    toolName: "React",
+    category: "Frontend",
+    image: "./techStack/React_Project.svg",
+    level: 1,
+    description: "blah",
+  },
+  {
+    id: 15,
+    toolName: "Spring Boot",
+    category: "Backend",
+    image: "./techStack/SpringBoot.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 16,
+    toolName: "SQL",
+    category: "Backend",
+    image: "./techStack/SQL.svg",
+    level: 3,
+    description: "blah",
+  },
+  {
+    id: 17,
+    toolName: "TypeScript",
+    category: "Frontend",
+    image: "./techStack/TypeScript.svg",
+    level: 2,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum commodo nisi, ac faucibus lorem suscipit eget. Sed vitae orci fermentum, ullamcorper libero a, congue nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sit amet est auctor, fermentum ante at, aliquet sem. Vivamus imperdiet, quam sed auctor mollis, dui ex consequat est, eget tincidunt magna ex a ante. Integer non nisi ac nibh sollicitudin tristique. Morbi in risus vitae lectus convallis congue at vitae eros.",
+  },
+  {
+    id: 18,
+    toolName: "Vite",
+    category: "Frontend",
+    image: "./techStack/Vite.svg",
+    level: 1,
+    description: "blah",
+  },
+];

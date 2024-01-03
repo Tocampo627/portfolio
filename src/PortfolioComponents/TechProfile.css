@@ -1,0 +1,78 @@
+.pop-up-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2em;
+}
+.back-key-container {
+  display: flex;
+  align-items: center;
+}
+.back-key {
+  font-size: 40px;
+  cursor: pointer;
+}
+.back-key:hover {
+  font-size: 60px;
+}
+.single-tool-img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.tool-name {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+}
+.level-comfort {
+  padding: 2;
+  margin: 2px;
+}
+.tech-experience-paragraph {
+  padding: 30px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.star-progress-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2px;
+  padding: 10px;
+  margin: 10px;
+}
+.yellow-star {
+  font-size: 20px;
+  color: rgba(255, 255, 0, 0.954);
+  text-shadow: -1px -1px 0 #000000ab, 1px -1px 0 #000000ab, -1px 1px 0 #000000ab,
+    1px 1px 0 #000000ab;
+}
+
+@media screen and (max-width: 768px) {
+  .pop-up-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+  }
+  .back-key-container {
+    justify-content: space-around;
+  }
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .tech-experience-paragraph {
+    padding: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}

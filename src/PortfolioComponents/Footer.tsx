@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      Made with{" "}
+      Made With{" "}
       <span className="footer-heart" role="img" aria-label="heart">
         ❤️
       </span>{" "}
