@@ -1,0 +1,27 @@
+.thanks-paragraph {
+  font-size: 24px;
+  padding: 50px;
+  margin: 40px;
+}
+.download-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 25px;
+}
+.download-me-text {
+  font-size: 25px;
+}
+.download-resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .thanks-paragraph {
+    padding: 10px;
+    margin: 10px;
+  }
+}
