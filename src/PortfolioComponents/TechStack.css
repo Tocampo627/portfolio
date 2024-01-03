@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   row-gap: 10px;
-  font-family: "Questrial", sans-serif;
 }
 .category-buttons-container {
   display: flex;
@@ -12,12 +11,11 @@
   padding: 1em;
   font-size: 20px;
 }
-.category-button {
-  background-color: azure;
-}
+
 .paragraph-container {
   font-size: 20px;
-  width: 50em;
+  padding: 20px;
+  margin: 20px;
 }
 .techstack-container {
   display: flex;
@@ -28,24 +26,20 @@
   padding: 10px;
   justify-content: center;
 }
-.tech-logos {
-  font-family: "Questrial", sans-serif;
-  font-size: 24px;
-}
+
 .logo-img {
   width: 130px;
   height: 130px;
   background-color: white;
   border-radius: 20px;
 }
+.tech-logos:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   .tech-stack-container {
     min-width: 350px;
-  }
-  .paragraph-container {
-    font-size: 14px;
-    width: 20em;
   }
   .techstack-container {
     row-gap: 2em;

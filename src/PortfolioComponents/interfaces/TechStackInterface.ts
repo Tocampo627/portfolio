@@ -142,7 +142,8 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/TypeScript.svg",
     level: 2,
-    description: "blah",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum commodo nisi, ac faucibus lorem suscipit eget. Sed vitae orci fermentum, ullamcorper libero a, congue nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sit amet est auctor, fermentum ante at, aliquet sem. Vivamus imperdiet, quam sed auctor mollis, dui ex consequat est, eget tincidunt magna ex a ante. Integer non nisi ac nibh sollicitudin tristique. Morbi in risus vitae lectus convallis congue at vitae eros.",
   },
   {
     id: 18,

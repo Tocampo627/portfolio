@@ -41,13 +41,18 @@ const TechStack = () => {
     );
   } else {
     return (
-      <div className="tech-stack-container">
-        <div className="paragraph-container">
+      <div className="tech-stack-container font">
+        <div className="paragraph-container font">
           <p className="tech-intro-paragraph">
             Throughout my career, I've been fortunate to engage with a diverse
             range of technologies, each contributing to my expertise and
             understanding of the ever-evolving tech landscape. Here's a snapshot
             of the tools and technologies I've worked with:
+          </p>
+          <p className="tech-intro-paragraph">
+            Click on each technology to get more insight into how I have
+            utilized each tool and to understand my level of comfort and
+            experience with them.
           </p>
         </div>
         <div className="category-buttons-container">
@@ -60,6 +65,7 @@ const TechStack = () => {
             </div>
           ))}
         </div>
+
         <div className="techstack-container">
           {techStackArray.map((tool) => (
             <div
