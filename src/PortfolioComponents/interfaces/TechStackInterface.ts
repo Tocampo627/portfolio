@@ -14,7 +14,8 @@ export const techStack: TechStackInterface[] = [
     category: "Cloud",
     image: "./techStack/Aws.svg",
     level: 2,
-    description: "blah",
+    description:
+      "In my professional and personal projects, I have gained valuable experience with AWS services, including Elastic Beanstalk, EC2 instances, IAM groups, and RDS. My journey with AWS began with deploying applications using Elastic Beanstalk, offering me a practical understanding of cloud-based application management. I have configured and managed EC2 instances, gaining insights into scalable computing. My use of IAM groups has provided me with foundational knowledge in managing access and security within AWS. Additionally, my work with RDS has given me a hands-on approach to database management in the cloud. With a self-assessed proficiency level of 2/5, I recognize the vastness of AWS and am eager to deepen my expertise in this area.",
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/Angular.svg",
     level: 1,
-    description: "blah",
+    description:
+      "Previously utilized Angular in front-end development for projects like 'College Finder' and 'Quiz Monster,' harnessing its framework to create dynamic and responsive user interfaces. While my proficiency was notable during these projects, my recent focus on React has shifted my expertise. As a result, my current comfort level with Angular is at 1/5, acknowledging the need for a refresher to update and refine my skills in this area. This shift reflects my adaptability and willingness to evolve with changing project requirements and technology trends.",
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/Css.svg",
     level: 2,
-    description: "blah",
+    description:
+      "Initially, my relationship with CSS was challenging, as I prioritized other languages in my development journey. However, recognizing the critical role of CSS in web development, especially for styling and responsiveness, I have recently dedicated more effort to enhancing my skills in raw CSS. Moving away from frameworks like Bootstrap and Chakra, I'm focusing on deepening my understanding of pure CSS. This renewed focus has involved working diligently on making my applications more responsive and mobile-friendly. Although I'm currently at a comfort level of 2/5, my ongoing practice and commitment to mastering CSS is a testament to my adaptability and willingness to tackle areas outside my comfort zone, with a goal of continuous improvement in frontend development.",
   },
   {
     id: 4,
@@ -38,7 +41,8 @@ export const techStack: TechStackInterface[] = [
     category: "Tools",
     image: "./techStack/Docker.svg",
     level: 1,
-    description: "blah",
+    description:
+      "I utilized Docker to orchestrate a multi-container application, gaining an understanding of containerization and microservices architecture.The network was configured to facilitate communication between these services. While my role was more focused on the broader setup rather than the intricate details of Docker, this experience provided me with foundational knowledge in container orchestration and the practical use of Docker Compose in developing and deploying multi-component applications. Given the guided nature of this activity, I would currently rate my Docker skills as introductory, with a keen interest in expanding my expertise in this area.",
   },
   {
     id: 5,
@@ -46,7 +50,8 @@ export const techStack: TechStackInterface[] = [
     category: "Cloud",
     image: "./techStack/GCP.svg",
     level: 2,
-    description: "blah",
+    description:
+      "In my role at Macy's project with Cognizant, I utilized GCP tools like BigQuery and Spanner for automating report generation and ensuring data consistency, significantly improving reporting efficiency. Additionally, I leveraged GCP's logging capabilities for monitoring applications in production, essential for real-time issue detection and resolution. This experience provided me with a foundational understanding of GCP’s data services and operational monitoring. With a self-assessed proficiency of 2/5, my hands-on engagement with GCP highlights my ability to utilize its core functionalities effectively, while acknowledging the scope for further skill development in its comprehensive cloud services.",
   },
   {
     id: 6,
@@ -54,7 +59,7 @@ export const techStack: TechStackInterface[] = [
     category: "Tools",
     image: "./techStack/Git.svg",
     level: 3,
-    description: "blah",
+    description: "Used Git for version control and source code management across all projects. Ensured efficient team collaboration and code integrity by maintaining a streamlined workflow for code changes and updates.",
   },
   {
     id: 7,
@@ -78,7 +83,7 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/HTML.svg",
     level: 3,
-    description: "blah",
+    description: "HTML was the starting point of my coding journey, marking the beginning of my self-taught exploration into web development. Through the years, I have continuously integrated HTML with modern frameworks such as Angular and React, leveraging it to structure web content effectively. This experience has been crucial in ensuring my applications are built on a robust, semantic HTML base. Given my consistent application and understanding of HTML in various projects, I rate my proficiency at 3/5. This rating reflects a solid grasp of the language's fundamentals, combined with an awareness of the ongoing learning opportunities that HTML offers, especially as it evolves and integrates with advanced web technologies.",
   },
   {
     id: 10,
