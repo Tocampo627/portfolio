@@ -59,7 +59,8 @@ export const techStack: TechStackInterface[] = [
     category: "Tools",
     image: "./techStack/Git.svg",
     level: 3,
-    description: "Used Git for version control and source code management across all projects. Ensured efficient team collaboration and code integrity by maintaining a streamlined workflow for code changes and updates.",
+    description:
+      "Used Git for version control and source code management across all projects. Ensured efficient team collaboration and code integrity by maintaining a streamlined workflow for code changes and updates.",
   },
   {
     id: 7,
@@ -67,7 +68,8 @@ export const techStack: TechStackInterface[] = [
     category: "Tools",
     image: "./techStack/GitHub.svg",
     level: 3,
-    description: "blah",
+    description:
+      "GitHub has been an integral tool in all of my personal projects, serving as the backbone for version control and code collaboration. It has enabled me to efficiently manage my project repositories, track changes, and maintain a history of my work. My consistent use of GitHub demonstrates my commitment to best practices in software development, including frequent commits, clear documentation, and effective collaboration. The platform has also been instrumental in exploring open-source projects and understanding diverse coding styles and approaches.",
   },
   {
     id: 8,
@@ -75,7 +77,8 @@ export const techStack: TechStackInterface[] = [
     category: "Tools",
     image: "./techStack/GitHubActions.svg",
     level: 2,
-    description: "blah",
+    description:
+      "In my personal projects, I've utilized GitHub Actions to facilitate CI/CD processes, focusing on streamlining both backend and frontend workflows. My involvement includes orchestrating automated deployments to Elastic Beanstalk and PostgreSQL services for backend updates, and implementing continuous integration for both backend and frontend upon pull requests. These workflows encompass Maven for build and test routines, Node.js for frontend consistency checks, and Slack integrations for deployment and build status notifications. While I've made significant strides in employing GitHub Actions, I rate my proficiency as a developing 2/5, reflecting my ongoing journey to deepen my understanding in this expansive and dynamic area.",
   },
   {
     id: 9,
@@ -83,7 +86,8 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/HTML.svg",
     level: 3,
-    description: "HTML was the starting point of my coding journey, marking the beginning of my self-taught exploration into web development. Through the years, I have continuously integrated HTML with modern frameworks such as Angular and React, leveraging it to structure web content effectively. This experience has been crucial in ensuring my applications are built on a robust, semantic HTML base. Given my consistent application and understanding of HTML in various projects, I rate my proficiency at 3/5. This rating reflects a solid grasp of the language's fundamentals, combined with an awareness of the ongoing learning opportunities that HTML offers, especially as it evolves and integrates with advanced web technologies.",
+    description:
+      "HTML was the starting point of my coding journey, marking the beginning of my self-taught exploration into web development. Through the years, I have continuously integrated HTML with modern frameworks such as Angular and React, leveraging it to structure web content effectively. This experience has been crucial in ensuring my applications are built on a robust, semantic HTML base. Given my consistent application and understanding of HTML in various projects, I rate my proficiency at 3/5. This rating reflects a solid grasp of the language's fundamentals, combined with an awareness of the ongoing learning opportunities that HTML offers, especially as it evolves and integrates with advanced web technologies.",
   },
   {
     id: 10,
@@ -91,7 +95,8 @@ export const techStack: TechStackInterface[] = [
     category: "Backend",
     image: "./techStack/Java.svg",
     level: 3,
-    description: "blah",
+    description:
+      "Java holds a special place in my skillset, not only as a language I deeply enjoy but also as a tool that I've effectively leveraged in various aspects of backend development. My experience with Java is multifaceted, ranging from writing backend APIs to developing scripts for automated data reporting and processing. The stream API has been a key feature in my projects, allowing me to write more efficient and readable code, especially for complex data processing tasks. My fondness for Java is rooted in its capability to handle intricate tasks with precision, a quality I have embraced and utilized extensively in my professional work. Reflecting on my journey with Java, I give myself a 3/5 confort level, acknowledging my solid foundation while recognizing the vast potential for further growth and mastery in this ever-evolving language.",
   },
   {
     id: 11,
@@ -99,23 +104,26 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/JavaScript.svg",
     level: 2,
-    description: "blah",
+    description:
+      "In my professional and personal projects, JavaScript has been a key component, particularly in front-end development. I have applied JavaScript to create interactive and dynamic user interfaces, ensuring a seamless user experience. My journey with JavaScript has spanned various applications, from enhancing web page functionalities to integrating with frameworks like Angular and React. Currently, I rate my proficiency with JavaScript at 2/5. This reflects my solid understanding of the fundamentals and successful application in projects, coupled with a keen interest in advancing my skills further. I am particularly eager to explore more of JavaScript's advanced features and capabilities, recognizing the language's potential to greatly enhance web application development.",
   },
   {
     id: 12,
-    toolName: "Postgres",
+    toolName: "PostgreSQL",
     category: "Backend",
     image: "./techStack/Postgres.svg",
     level: 1,
-    description: "blah",
+    description:
+      "In my personal projects, I have employed PostgreSQL as my primary database, running it within Docker containers. This setup has provided me with hands-on experience in database containerization, offering an efficient and consistent development environment. My use of PostgreSQL involved setting up and managing the database server in a containerized environment, configuring it for data persistence, and ensuring seamless integration with my application's backend. Through this experience, I gained insights into database management, schema design, and the optimization of SQL queries for performance and scalability. Considering my current level of engagement and understanding, I would cautiously rate my proficiency with PostgreSQL at a beginner to intermediate level. I am committed to deepening my knowledge and skills in database administration and optimization with PostgreSQL.",
   },
   {
     id: 13,
     toolName: "Postman",
     category: "Tools",
     image: "./techStack/Postman.svg",
-    level: 2,
-    description: "blah",
+    level: 3,
+    description:
+      "In my development work, Postman has been an essential tool for testing and interacting with APIs. I've utilized it extensively to test backend endpoints, ensuring the functionality and reliability of my APIs. For instance, in my 'College Finder' project, I used Postman to call the U.S. Department of Education API, which was crucial for understanding the data structure and payload to effectively handle it in the frontend. Additionally, my use of Postman includes testing CRUD operations and triggering APIs in different environments, allowing me to verify and fine-tune the behavior of my applications under various conditions. Given my focused yet comprehensive use of Postman, I would rate my proficiency as a solid 3/5. While I am proficient in the core functionalities of Postman, I acknowledge there may be more advanced features of the tool that I have yet to explore.",
   },
   {
     id: 14,
@@ -123,23 +131,25 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/React_Project.svg",
     level: 1,
-    description: "blah",
+    description:
+      "In my journey to expand my front-end development skills, I have embarked on personal projects using React, despite not having professional experience with it yet. My engagement with React includes developing a full-stack application and transforming my vanilla JavaScript project, 'A Classic Game of Hangman,' into a more advanced version utilizing React's capabilities. This experience allowed me to understand the core concepts of React, such as component-based architecture, state management, and the use of JSX for UI rendering. My hands-on practice with React has been instrumental in grasping its potential for building dynamic and responsive web applications. I rate my current proficiency with React at an initial 1/5, acknowledging my foundational understanding and eagerness to further develop skills in this powerful library.",
   },
   {
     id: 15,
     toolName: "Spring Boot",
     category: "Backend",
     image: "./techStack/SpringBoot.svg",
-    level: 3,
-    description: "blah",
+    level: 2,
+    description:
+      "In my professional work, I have employed Spring Boot for developing backend APIs, appreciating its ability to simplify and accelerate the backend development process. My experience with Spring Boot includes setting up RESTful services, integrating with databases using Spring Data JPA, and applying Spring Security for authentication and authorization processes. These projects have given me a practical understanding of Spring Boot's dependency injection, auto-configuration, and its comprehensive suite of tools for efficient backend development. While I am comfortable with the fundamental aspects of Spring Boot, I am continually learning to leverage its full potential in creating robust and scalable APIs. Considering my current experience, I would rate my proficiency in Spring Boot as a developing 2/5, recognizing my solid foundation and the vast array of features and best practices I am still exploring.",
   },
   {
     id: 16,
     toolName: "SQL",
     category: "Backend",
     image: "./techStack/SQL.svg",
-    level: 3,
-    description: "blah",
+    level: 2,
+    description: "In both my professional and personal projects, I have consistently utilized SQL to interact with various database systems, including Google Cloud Spanner, BigQuery, and PostgreSQL. My engagement with SQL spans a range of tasks, from writing and optimizing queries for data management to implementing essential database operations like creating tables and handling records. This experience has provided me with an understanding of SQL's core functionalities and its universal syntax, while also exposing me to the unique features of different databases. My proficiency in formulating standard SQL queries and executing database operations is a result of this combined personal and professional use. I am comfortable with SQL basics and am actively expanding my knowledge to include more advanced techniques and optimization strategies. Reflecting on this breadth of experience, I rate my SQL skills as a developing 2/5, acknowledging my foundational knowledge and my commitment to further enhancing my SQL expertise in diverse database environments.",
   },
   {
     id: 17,
@@ -148,7 +158,7 @@ export const techStack: TechStackInterface[] = [
     image: "./techStack/TypeScript.svg",
     level: 2,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum commodo nisi, ac faucibus lorem suscipit eget. Sed vitae orci fermentum, ullamcorper libero a, congue nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sit amet est auctor, fermentum ante at, aliquet sem. Vivamus imperdiet, quam sed auctor mollis, dui ex consequat est, eget tincidunt magna ex a ante. Integer non nisi ac nibh sollicitudin tristique. Morbi in risus vitae lectus convallis congue at vitae eros.",
+      "Professionally, I have utilized TypeScript in conjunction with Angular, leveraging its strong typing to enhance application reliability and maintainability. This experience has allowed me to appreciate the robustness TypeScript brings to JavaScript-based projects, particularly in terms of error reduction and improved code quality. More recently, I have been expanding my TypeScript skills by applying them to React development, further broadening my understanding of its applications in different frameworks. My journey with TypeScript is an ongoing process of learning and adaptation. Considering my professional use and current learning curve, I would rate my TypeScript proficiency as a developing 2/5. This rating reflects my foundational understanding and the progressive steps I am taking to integrate TypeScript more deeply into my front-end development work.",
   },
   {
     id: 18,
@@ -156,6 +166,6 @@ export const techStack: TechStackInterface[] = [
     category: "Frontend",
     image: "./techStack/Vite.svg",
     level: 1,
-    description: "blah",
+    description: "In my recent projects, I have begun exploring the capabilities of Vite, primarily using it to bootstrap and develop React TypeScript projects. My experience with Vite includes setting up new projects, taking advantage of its fast build times and efficient hot module replacement for an improved development experience. I have also utilized Vite for deploying some of these projects to GitHub Pages, familiarizing myself with its build and deployment processes. While my engagement with Vite is currently limited to these specific applications, it has provided me with a practical understanding of its role in modern web development workflows. Given this focused use, I would assess my proficiency with Vite as an initial 1/5, recognizing my foundational experience and the potential to further explore and leverage its full range of features in future projects.",
   },
 ];
