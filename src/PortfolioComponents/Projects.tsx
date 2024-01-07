@@ -2,7 +2,6 @@ import "./Projects.css";
 import { useState } from "react";
 import "./Projects.css";
 import { ProjectInterface, myProjects } from "./interfaces/ProjectInterface";
-import { TechStackInterface } from "./interfaces/TechStackInterface";
 import ProjectDetails from "./ProjectDetails";
 
 const Projects = () => {
@@ -12,6 +11,7 @@ const Projects = () => {
 
   const handleShowDetails = () => {
     setShowProjectDetails(true);
+    setProjectArray(myProjects);
   };
 
   if (!showProjectDetails) {
