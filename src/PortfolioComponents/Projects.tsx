@@ -9,7 +9,6 @@ const Projects = () => {
     useState<ProjectInterface[]>(myProjects);
   const [showProjectDetails, setShowProjectDetails] = useState<boolean>(false);
   const [projectId, setProjectId] = useState<number| null>(null);
-  const [projectDetails, setProjectDetails] = useState<ProjectInterface[]>(myProjects);
   
   const handleShowDetails = () => {
     setShowProjectDetails(true);

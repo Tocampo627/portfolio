@@ -1,6 +1,5 @@
 import "./ProjectDetails.css";
 import { ProjectInterface } from "./interfaces/ProjectInterface";
-import { TechStackInterface } from "./interfaces/TechStackInterface";
 
 type ProjectDetailsProperties = {
   project: ProjectInterface | undefined;
