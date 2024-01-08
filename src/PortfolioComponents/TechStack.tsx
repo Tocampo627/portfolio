@@ -22,6 +22,7 @@ const TechStack = () => {
       setTechStackArray(techStack);
     }
   };
+  
   const handleToolClick = (id: number | null) => {
     setToolId(id);
     setViewTechProfile(true);

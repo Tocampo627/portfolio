@@ -7,10 +7,12 @@ type TechProfileProperties = {
   tool: TechStackInterface | undefined;
 };
 const TechProfile = ({ setViewTechProfile, tool }: TechProfileProperties) => {
+ 
   const [props, set] = useSpring(() => ({
     transform: "perspective(600px) rotateY(0deg)",
     config: { mass: 20, tension: 100, friction: 60 },
   }));
+
   const generateLevelBar = () => {
     const levelNumber: number = tool?.level ? tool?.level : 0;
     const star: JSX.Element[] = [];
