@@ -42,6 +42,8 @@ const TechStack = () => {
     );
   } else {
     return (
+      <div>
+        <h1>My Tech Stack</h1>
       <div className="tech-stack-container font">
         <div className="paragraph-container font">
           <p className="tech-intro-paragraph">
@@ -81,7 +83,7 @@ const TechStack = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div></div>
     );
   }
 };

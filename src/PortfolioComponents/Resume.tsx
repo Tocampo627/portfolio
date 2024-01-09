@@ -3,6 +3,7 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <div>
+      <h1>Resume</h1>
       <div className="download-resume-container">
         <p className="thanks-paragraph">
           Thank you for taking the time to explore my portfolio and learn about

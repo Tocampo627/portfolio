@@ -28,6 +28,8 @@
 .my-summary {
   font-size: 21px;
   max-width: 30em;
+  padding: 20px;
+  margin: 20px;
 }
 .mini-logos {
   width: 2.5em;
