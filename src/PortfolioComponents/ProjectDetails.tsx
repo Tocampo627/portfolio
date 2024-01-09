@@ -1,22 +1,41 @@
 import "./ProjectDetails.css";
 import { ProjectInterface } from "./interfaces/ProjectInterface";
+import { TechStackInterface, techStack } from "./interfaces/TechStackInterface";
+import { useEffect, useState } from "react";
 
 type ProjectDetailsProperties = {
   project: ProjectInterface | undefined;
 };
 const ProjectDetails = ({ project }: ProjectDetailsProperties) => {
-  // project has an array of techstack
-  const len = project?.techToolIds.length || 0;
+  const [techStackArray, setTechStackArray] =
+    useState<TechStackInterface[]>(techStack);
 
-  for (let i = 0; i < len; i++) {
-    {
-      console.log(project?.techToolIds[i]);
+  useEffect(() => {
+    if (project) {
+      const projectTechTools = project.techToolIds
+        .map((id) => techStack.find((tech) => tech.id === id))
+        .filter((tech): tech is TechStackInterface => tech !== undefined);
+
+      setTechStackArray(projectTechTools);
     }
-  }
+  }, [project]);
+
   return (
     <div>
       <h1>Project Details</h1>
-      {project?.name}
+      <h3>{project?.name}</h3>
+      <p className="paragraph-container">{project?.description}</p>
+      <p>Tools Used:</p>
+      <div className="techstack-container">
+        {techStackArray.map((tool) => (
+          <div>
+            <div>
+              <img src={tool.image} className="logo-img" />
+            </div>
+            <div>{tool.toolName}</div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
