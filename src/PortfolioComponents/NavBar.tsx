@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type NavBarProperties = {
   setCurrentTab: React.Dispatch<React.SetStateAction<string>>;
@@ -7,17 +7,14 @@ type NavBarProperties = {
 
 const NavBar = ({ setCurrentTab }: NavBarProperties) => {
   const [isHidden, setIsOpen] = useState<boolean>(true);
-  const [click, setClick] = useState<boolean>(false);
 
   const handleNavClick = (tab: string) => {
     setCurrentTab(tab);
     setIsOpen(false);
-   
   };
   const toggleMenu = () => {
     setIsOpen(!isHidden);
   };
-
 
   return (
     <div className="navbar-container">
