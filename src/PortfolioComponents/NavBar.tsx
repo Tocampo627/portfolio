@@ -1,19 +1,23 @@
 import "./NavBar.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 type NavBarProperties = {
   setCurrentTab: React.Dispatch<React.SetStateAction<string>>;
 };
 
 const NavBar = ({ setCurrentTab }: NavBarProperties) => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isHidden, setIsOpen] = useState<boolean>(true);
+  const [click, setClick] = useState<boolean>(false);
 
   const handleNavClick = (tab: string) => {
     setCurrentTab(tab);
     setIsOpen(false);
+   
   };
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isHidden);
   };
+
 
   return (
     <div className="navbar-container">
@@ -29,7 +33,7 @@ const NavBar = ({ setCurrentTab }: NavBarProperties) => {
           &#9776;
         </button>
         <div>
-          <div className={`button-container ${isOpen ? "" : "hidden"}`}>
+          <div className={`button-container ${isHidden ? "" : "hidden"}`}>
             <button onClick={() => handleNavClick("home")}>Home</button>
             <button onClick={() => handleNavClick("about-me")}>About Me</button>
             <button onClick={() => handleNavClick("tech-stack")}>

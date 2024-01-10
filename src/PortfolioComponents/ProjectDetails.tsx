@@ -5,8 +5,12 @@ import { useEffect, useState } from "react";
 
 type ProjectDetailsProperties = {
   project: ProjectInterface | undefined;
+  setShowProjectDetails: React.Dispatch<React.SetStateAction<boolean>>;
 };
-const ProjectDetails = ({ project }: ProjectDetailsProperties) => {
+const ProjectDetails = ({
+  project,
+  setShowProjectDetails,
+}: ProjectDetailsProperties) => {
   const [techStackArray, setTechStackArray] =
     useState<TechStackInterface[]>(techStack);
 
@@ -21,20 +25,30 @@ const ProjectDetails = ({ project }: ProjectDetailsProperties) => {
   }, [project]);
 
   return (
-    <div>
-      <h1>Project Details</h1>
-      <h3>{project?.name}</h3>
-      <p className="paragraph-container">{project?.description}</p>
-      <p>Tools Used:</p>
-      <div className="techstack-container">
-        {techStackArray.map((tool) => (
-          <div>
+    <div className="project-details">
+      <div className="back-key-container">
+        <span
+          className="material-symbols-outlined back-key"
+          onClick={() => setShowProjectDetails(false)}
+        >
+          arrow_back
+        </span>
+      </div>
+      <div>
+        <h1>Project Details</h1>
+        <h3>{project?.name}</h3>
+        <p className="paragraph-container">{project?.description}</p>
+        <p>Tools Used:</p>
+        <div className="techstack-container">
+          {techStackArray.map((tool) => (
             <div>
-              <img src={tool.image} className="logo-img" />
+              <div>
+                <img src={tool.image} className="logo-img" />
+              </div>
+              <div>{tool.toolName}</div>
             </div>
-            <div>{tool.toolName}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
