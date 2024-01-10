@@ -8,12 +8,11 @@ const Projects = () => {
   const [projectArray, setProjectArray] =
     useState<ProjectInterface[]>(myProjects);
   const [showProjectDetails, setShowProjectDetails] = useState<boolean>(false);
-  const [projectId, setProjectId] = useState<number| null>(null);
-  
+  const [projectId, setProjectId] = useState<number | null>(null);
+
   const handleShowDetails = () => {
     setShowProjectDetails(true);
     setProjectArray(myProjects);
-    
   };
 
   if (!showProjectDetails) {
@@ -39,7 +38,9 @@ const Projects = () => {
                 <div>
                   <button
                     className="project-button"
-                    onClick={() => (handleShowDetails(), setProjectId(project.id))}
+                    onClick={() => (
+                      handleShowDetails(), setProjectId(project.id)
+                    )}
                   >
                     More Details
                   </button>
@@ -56,8 +57,13 @@ const Projects = () => {
       </div>
     );
   } else {
-    const proj = myProjects.find((p)=> p.id === projectId )
-    return <ProjectDetails project={proj} ></ProjectDetails>;
+    const proj = myProjects.find((p) => p.id === projectId);
+    return (
+      <ProjectDetails
+        project={proj}
+        setShowProjectDetails={setShowProjectDetails}
+      ></ProjectDetails>
+    );
   }
 };
 
