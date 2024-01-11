@@ -19,7 +19,11 @@ const NavBar = ({ setCurrentTab }: NavBarProperties) => {
   return (
     <div className="navbar-container">
       <div>
-        <img src="./t-logo.svg" className="logo"></img>
+        <img
+          src="./t-logo.svg"
+          className="logo"
+          onClick={() => handleNavClick("home")}
+        ></img>
       </div>
       <div className="burger-button-container">
         <button
