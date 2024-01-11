@@ -10,7 +10,7 @@ const NavBar = ({ setCurrentTab }: NavBarProperties) => {
 
   const handleNavClick = (tab: string) => {
     setCurrentTab(tab);
-    setIsOpen(false);
+    setIsOpen(true);
   };
   const toggleMenu = () => {
     setIsOpen(!isHidden);
