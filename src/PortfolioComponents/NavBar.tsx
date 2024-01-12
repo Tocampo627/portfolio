@@ -20,7 +20,7 @@ const NavBar = ({ setCurrentTab }: NavBarProperties) => {
     <div className="navbar-container">
       <div>
         <img
-          src="./t-logo.svg"
+          src="./portfolio-logo.svg"
           className="logo"
           onClick={() => handleNavClick("home")}
         ></img>
