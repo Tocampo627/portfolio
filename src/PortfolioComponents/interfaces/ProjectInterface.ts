@@ -57,12 +57,12 @@ export const myProjects: ProjectInterface[] = [
     image: "./projectImages/placeholder.svg",
     techToolIds: [3, 6, 7, 8, 9, 11, 14, 17, 18],
   },
-  {
-    id: 7,
-    name: "Salty Paws Doggy Daycare",
-    description: "Game Description",
-    link: "",
-    image: "./projectImages/placeholder.svg",
-    techToolIds: [1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18],
-  },
+  // {
+  //   id: 7,
+  //   name: "Salty Paws Doggy Daycare",
+  //   description: "Game Description",
+  //   link: "",
+  //   image: "./projectImages/placeholder.svg",
+  //   techToolIds: [1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18],
+  // },
 ];

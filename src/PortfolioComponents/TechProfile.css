@@ -51,7 +51,9 @@
 .yellow-star {
   color: gold;
 }
-
+.projects-list {
+  font-size: 20px;
+}
 @media screen and (max-width: 768px) {
   .pop-up-container {
     display: flex;
