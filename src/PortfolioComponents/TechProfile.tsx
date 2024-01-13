@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./TechProfile.css";
-import { TechStackInterface, techStack } from "./interfaces/TechStackInterface";
+import { TechStackInterface } from "./interfaces/TechStackInterface";
 import { useSpring, animated } from "@react-spring/web";
 import { ProjectInterface, myProjects } from "./interfaces/ProjectInterface";
 
