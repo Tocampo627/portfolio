@@ -1,5 +1,10 @@
+import AboutMe from "./AboutMe";
 import "./Home.css";
 import { useSpring, animated } from "@react-spring/web";
+import TechStack from "./TechStack";
+import Contact from "./Contact";
+import Resume from "./Resume";
+import Projects from "./Projects";
 
 const Home = () => {
   const springs = useSpring({
@@ -15,18 +20,15 @@ const Home = () => {
             <h1>Hello, I'm Tanya</h1>
             <p>Welcome to my website</p>
           </animated.div>
+          <AboutMe></AboutMe>
+          <TechStack></TechStack>
+          <Resume></Resume>
+          <Projects></Projects>
+          <Contact></Contact>
         </div>
       </div>
     </div>
   );
-  // return (
-  //   <div className="greeting-container">
-  //     <div className="intro-text">
-  //       <h1>Hello, I'm Tanya</h1>
-  //       <p>Welcome to my website</p>
-  //     </div>
-  //   </div>
-  // );
 };
 
 export default Home;
