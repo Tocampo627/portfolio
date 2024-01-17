@@ -15,16 +15,27 @@ const Home = () => {
     <div className="greeting-container">
       <div className="greeting-container">
         <div className="intro-text">
-          <div></div>
-          <animated.div style={{ ...springs }}>
-            <h1>Hello, I'm Tanya</h1>
-            <p>Welcome to my website</p>
-          </animated.div>
-          <AboutMe></AboutMe>
-          <TechStack></TechStack>
-          <Resume></Resume>
-          <Projects></Projects>
-          <Contact></Contact>
+          <div>
+            <animated.div style={{ ...springs }}>
+              <h1>Hello, I'm Tanya</h1>
+              <p>Welcome to my website</p>
+            </animated.div>
+          </div>
+          <div>
+            <AboutMe></AboutMe>
+          </div>
+          <div>
+            <TechStack></TechStack>
+          </div>
+          <div>
+            <Resume></Resume>
+          </div>
+          <div>
+            <Projects></Projects>
+          </div>
+          <div>
+            <Contact></Contact>
+          </div>
         </div>
       </div>
     </div>
