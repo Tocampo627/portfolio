@@ -38,6 +38,7 @@ const ProjectDetails = ({
         <h1>Project Details</h1>
         <h3>{project?.name}</h3>
         <p className="paragraph-container">{project?.description}</p>
+        <a href={project?.sourceCodeLink}>SOURCE CODE</a>
         <p>Tools Used:</p>
         <div className="techstack-container">
           {techStackArray.map((tool) => (
