@@ -42,8 +42,7 @@ export const myProjects: ProjectInterface[] = [
   {
     id: 4,
     name: "College Finder (Front End)",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    description: "",
     link: "https://tocampo627.github.io/College-Finder-FrontEnd/",
     sourceCodeLink: "",
     image: "./projectImages/placeholder.svg",
@@ -52,7 +51,7 @@ export const myProjects: ProjectInterface[] = [
   {
     id: 5,
     name: "Hang Man 2.0",
-    description: "Game Description",
+    description: "",
     link: "https://tocampo627.github.io/hang-man-2.0/",
     sourceCodeLink: "",
     image: "./projectImages/placeholder.svg",
@@ -61,7 +60,7 @@ export const myProjects: ProjectInterface[] = [
   {
     id: 6,
     name: "My Portfolio",
-    description: "Game Description",
+    description: "",
     link: "https://tocampo627.github.io/portfolio/",
     sourceCodeLink: "",
     image: "./projectImages/placeholder.svg",
