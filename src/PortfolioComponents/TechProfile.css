@@ -25,6 +25,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  padding: 10px;
+  margin: 10px;
 }
 .tool-name {
   font-size: 40px;

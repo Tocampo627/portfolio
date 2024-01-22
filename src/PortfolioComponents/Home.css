@@ -4,3 +4,9 @@
   row-gap: 7em;
   min-height: 70em;
 }
+.section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
