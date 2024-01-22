@@ -5,10 +5,8 @@
   min-height: 70em;
 }
 .section {
-  min-height: 100vh; /* Full viewport height */
-  width: 100%;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
