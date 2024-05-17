@@ -14,13 +14,9 @@ const Resume = () => {
         </p>
         <p className="download-me-text">Download a copy of my resume:</p>
         <div>
-          <a
-            href="./Ocampo_SWE_2024_Public_Resume.pdf"
-            download="Ocampo_SWE_2024_Public_Resume.pdf"
-          >
+          <a href="Ocampo_SWE_2024_Public_Resume.pdf" download>
             <button className="download-button">
-              <span className="material-symbols-outlined">download</span>CLICK
-              HERE
+              <span className="material-symbols-outlined">download</span>CLICK HERE
             </button>
           </a>
           <br></br>
