@@ -15,14 +15,15 @@ const Resume = () => {
         <p className="download-me-text">Download a copy of my resume:</p>
         <div>
           <a
-            href="./TOcampo_SWE_2024_Public_Resume.pdf"
-            download="TanyaOcampo_2024_Resume.pdf"
+            href="public/Ocampo_SWE_2024_Public_Resume.pdf"
+            download="Ocampo_SWE_2024_Public_Resume.pdf"
           >
             <button className="download-button">
               <span className="material-symbols-outlined">download</span>CLICK
               HERE
             </button>
           </a>
+          <br></br>
         </div>
       </div>
     </div>
