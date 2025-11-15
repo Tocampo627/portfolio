@@ -20,10 +20,7 @@ const Projects = () => {
       <div>
         <h1>PROJECTS</h1>
         <p className="project-intro">
-          In this section, you'll discover a selection of projects that
-          represent the bedrock of my coding journey. While the interfaces here
-          provide a glimpse into my front-end capabilities, the full breadth of
-          some projects awaits on my GitHub repositories.
+          Check out my projects! My projects represent my transition from vanilla java script to a 2.0 version using libraries & frameworks!
         </p>
         <div className="project-container">
           {projectArray.map((project) => (
