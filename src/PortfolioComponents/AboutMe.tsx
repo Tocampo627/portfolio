@@ -16,14 +16,13 @@ const AboutMe = () => {
         </div>
         <div className="right-container">
           <p className="my-summary font">
-            Results-driven Full-stack Developer with a proven track record of
-            delivering impactful solutions for large-scale international
-            companies. With a demonstrated experience in a diverse set of
-            technologies and a self-driven approach to problem-solving, I
-            actively contribute to innovative and collaborative projects.
-            Seeking roles where I can continue to make an impact at scale and
-            embrace continuous learning.
-          </p>
+  I’m a Computer Science graduate student and early career software engineer 
+  with hands on experience in full-stack development and a background in 
+  education and production leadership. As a career changer, I bring creativity, 
+  strong communication, and real-world problem-solving to every project. 
+  I’m passionate about building meaningful software, improving processes, 
+  and learning continuously.
+</p>
           <div className="logos-container">
             <a
               href="https://www.linkedin.com/in/tanyaocampo627/"
