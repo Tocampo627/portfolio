@@ -1,0 +1,48 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--cream);
+}
+
+.hero .container {
+  width: min(100% - 3rem, 1000px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  color: var(--green-dark);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.hero p {
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+  color: var(--charcoal);
+  font-size: 1.15rem;
+  line-height: 1.7;
+ 
+}
+
+.button-dupe {
+  display: inline-block;
+  padding: 0.70rem 1.00rem;
+  border-radius: 700px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: lightgray;
+  color: black;
+}
+
+#landing-button-box {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+

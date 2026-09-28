@@ -1,0 +1,42 @@
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.tech-group-card {
+  padding: 1.75rem;
+
+  background-color: var(--white);
+  border: 1px solid var(--sage-light);
+  border-radius: 14px;
+}
+
+.tech-group-card h3 {
+  margin-top: 0;
+  color: var(--green-dark);
+}
+
+.tech-list {
+    align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tech-item {
+  min-width: 90px;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ gap: 0.5rem;
+  text-align: center;
+
+}
+
+.tech-logo {
+  width: 40px;
+  object-fit: contain;
+}

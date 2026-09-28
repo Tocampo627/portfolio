@@ -1,34 +1,33 @@
-import { useState } from "react";
-import "./App.css";
-import NavBar from "./PortfolioComponents/NavBar";
-import Home from "./PortfolioComponents/Home";
-import AboutMe from "./PortfolioComponents/AboutMe";
-import TechStack from "./PortfolioComponents/TechStack";
-import Contact from "./PortfolioComponents/Contact";
-import Resume from "./PortfolioComponents/Resume";
-import Projects from "./PortfolioComponents/Projects";
-import Footer from "./PortfolioComponents/Footer";
+// assemble the web
+import Landing from "./components/Landing";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import Tools from "./components/Tools";
+import Connect from "./components/Connect";
+import Resume from "./components/Resume";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+
 
 function App() {
-  const [currentTab, setCurrentTab] = useState("home");
-  return (
-    <>
-      <div className="landing-layout">
-        <div>
-          <NavBar setCurrentTab={setCurrentTab}></NavBar>
-        </div>
-        <div className="app-container">
-          {currentTab === "home" && <Home></Home>}
-          {currentTab === "about-me" && <AboutMe />}
-          {currentTab === "tech-stack" && <TechStack></TechStack>}
-          {currentTab === "contact" && <Contact></Contact>}
-          {currentTab === "resume" && <Resume></Resume>}
-          {currentTab === "projects" && <Projects></Projects>}
-        </div>
-        <Footer />
-      </div>
-    </>
-  );
+    return (
+        <>
+
+        <NavBar />
+
+        <main>
+        <Landing></Landing>
+        <AboutMe></AboutMe>
+        <Projects></Projects>
+        <Tools></Tools>
+        <Connect></Connect>
+        <Resume></Resume>
+        </main>
+        <Footer/>
+
+        
+        </>
+    );
 }
 
 export default App;

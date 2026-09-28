@@ -1,0 +1,89 @@
+#about {
+    padding: 7rem 0;
+    background-color: var(--white);
+}
+
+.about-layout {
+    display: grid;
+    grid-template-columns: 0.8fr 1.4fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+
+/* LEFT SIDE */
+
+.about-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 320px;
+    height: 390px;
+
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.engineer-note {
+    max-width: 320px;
+
+    padding: 1.25rem 1.5rem;
+
+    border-left: 4px solid var(--green-dark);
+    border-radius: 0 10px 10px 0;
+
+    color: var(--green-dark);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+
+/* RIGHT SIDE */
+
+.about-story {
+    max-width: 700px;
+}
+
+.about-story p {
+    margin-top: 0;
+    margin-bottom: 1.4rem;
+
+    color: var(--charcoal);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.about-personal {
+    color: var(--green-medium) !important;
+    font-weight: 600;
+    padding-left: 20px;
+    border-left: 4px solid var(--green-dark);
+}
+
+
+/* MOBILE */
+/* 
+@media (max-width: 768px) {
+    #about {
+        padding: 5rem 0;
+    }
+
+    .about-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .profile-img,
+    .engineer-note {
+        max-width: 100%;
+    }
+
+    .profile-img {
+        height: 420px;
+    }
+} */
